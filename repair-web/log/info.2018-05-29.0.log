@@ -1,0 +1,24 @@
+2018-05-29 09:33:34,673 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-05-29 09:33:34,685 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8080/distribute/getAllRepairCurDistribute
+2018-05-29 09:33:34,685 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-05-29 09:33:34,685 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.DistributeControllergetAllRepairCurDistribute
+2018-05-29 09:33:34,685 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[张林, 87209088]
+2018-05-29 09:33:34,713 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@28ab6aae
+2018-05-29 09:33:34,714 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：41
+2018-05-29 09:33:34,714 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-05-29 15:37:25,829 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-05-29 15:37:25,830 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8080/distribute/getAllRepairCurConfirm
+2018-05-29 15:37:25,830 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-05-29 15:37:25,831 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.DistributeControllergetAllRepairCurConfirm
+2018-05-29 15:37:25,832 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[]
+2018-05-29 15:37:25,892 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@2417dda9
+2018-05-29 15:37:25,893 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：64
+2018-05-29 15:37:25,893 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-05-29 15:37:26,765 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-05-29 15:37:26,765 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8080/distribute/getAllRepairCurDistribute
+2018-05-29 15:37:26,765 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-05-29 15:37:26,765 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.DistributeControllergetAllRepairCurDistribute
+2018-05-29 15:37:26,765 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[张林, 87209088]
+2018-05-29 15:37:26,798 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@1c41ac21
+2018-05-29 15:37:26,799 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：34
+2018-05-29 15:37:26,799 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成

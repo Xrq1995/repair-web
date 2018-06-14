@@ -1,0 +1,24 @@
+2018-03-24 10:25:46,409 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-24 10:25:46,413 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8081/user/login
+2018-03-24 10:25:46,413 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-24 10:25:46,424 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-24 10:25:46,424 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16201106, 530061]
+2018-03-24 10:25:46,626 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@421217db
+2018-03-24 10:25:46,627 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：218
+2018-03-24 10:25:46,627 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-24 10:25:46,722 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-24 10:25:46,723 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8081/repairInfo/all
+2018-03-24 10:25:46,723 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-24 10:25:46,723 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.RepairInfoControllergetAllRepairInfo
+2018-03-24 10:25:46,723 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16201106]
+2018-03-24 10:25:46,733 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-24 10:25:46,734 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8081/timePicker/all
+2018-03-24 10:25:46,734 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-24 10:25:46,734 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.RepairTimePickerControllergetRepairTimePickerInfo
+2018-03-24 10:25:46,734 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[]
+2018-03-24 10:25:46,766 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@481b90df
+2018-03-24 10:25:46,766 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：33
+2018-03-24 10:25:46,766 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-24 10:25:46,768 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@46d0161f
+2018-03-24 10:25:46,768 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：35
+2018-03-24 10:25:46,768 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成

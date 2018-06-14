@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <parent>
+    <groupId>cn.edu.ahu</groupId>
+    <artifactId>repair</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>repair-frontend</artifactId>
+
+  <build>
+    <plugins>
+      <plugin>
+        <!-- 前端打包插件-->
+        <groupId>com.github.eirslett</groupId>
+        <artifactId>frontend-maven-plugin</artifactId>
+        <version>1.2</version>
+        <executions>
+          <!--安装本地node和npm避免版本问题-->
+          <execution>
+            <id>install node and npm</id>
+            <goals>
+              <goal>install-node-and-npm</goal>
+            </goals>
+            <configuration>
+              <nodeVersion>v9.8.0</nodeVersion>
+              <npmVersion>3.10.9</npmVersion>
+              <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>
+              <npmDownloadRoot>http://registry.npmjs.org/npm/-/</npmDownloadRoot>
+            </configuration>
+          </execution>
+
+          <!-- 设置npm注册信息 -->
+          <execution>
+            <id>npm set registry</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <!--<arguments>config set registry https://registry.npmjs.org</arguments>-->
+              <!-- 修改成淘宝镜像地址 -->
+              <arguments>config set registry https://registry.npm.taobao.org</arguments>
+            </configuration>
+          </execution>
+
+          <!-- 设置SSL权限 -->
+          <execution>
+            <id>npm set non-strict ssl</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <!-- configuration 适用于运行的所有npm指令 -->
+            <configuration>
+              <arguments>config set strict-ssl false</arguments>
+            </configuration>
+          </execution>
+
+          <!--安装所有项目依赖-->
+          <execution>
+            <id>npm install</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <!-- 默认值 "generate-resources" -->
+            <phase>generate-resources</phase>
+            <!-- configuration 适用于运行的所有npm指令 -->
+            <configuration>
+              <arguments>install</arguments>
+            </configuration>
+          </execution>
+
+          <!-- 构建打包压缩静态文件 -->
+          <execution>
+            <id>npm run build</id>
+            <goals>
+              <goal>npm</goal>
+            </goals>
+            <configuration>
+              <arguments>run build</arguments>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

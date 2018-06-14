@@ -1,0 +1,2 @@
+2018-05-31 13:07:26,210 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数messengerName为null ***
+2018-05-31 13:10:05,556 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数messengerName为null ***

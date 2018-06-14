@@ -1,0 +1,46 @@
+2018-03-15 17:14:43,076 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 17:14:43,080 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 17:14:43,081 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 17:14:43,114 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 17:14:43,115 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[null, null]
+2018-03-15 17:14:43,118 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数number为null ***
+2018-03-15 17:15:23,945 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 17:15:23,946 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 17:15:23,946 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 17:15:23,946 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 17:15:23,946 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16201106, 530061]
+2018-03-15 17:15:24,184 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@30ec7f36
+2018-03-15 17:15:24,184 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：239
+2018-03-15 17:15:24,185 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-15 17:15:35,715 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 17:15:35,716 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 17:15:35,716 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 17:15:35,716 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 17:15:35,716 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16201106, 530061]
+2018-03-15 17:15:35,727 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@d849651
+2018-03-15 17:15:35,727 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：12
+2018-03-15 17:15:35,728 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-15 18:42:34,203 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 18:42:34,204 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 18:42:34,204 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 18:42:34,204 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 18:42:34,204 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16201106, 530061]
+2018-03-15 18:42:34,216 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@5e108b75
+2018-03-15 18:42:34,216 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：13
+2018-03-15 18:42:34,216 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-15 18:43:17,489 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 18:43:17,489 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 18:43:17,490 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 18:43:17,490 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 18:43:17,490 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16301132, 202533]
+2018-03-15 18:43:17,608 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@798c93f
+2018-03-15 18:43:17,609 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：120
+2018-03-15 18:43:17,609 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成
+2018-03-15 18:48:11,408 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-03-15 18:48:11,408 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://172.23.2.94:8081/user/login
+2018-03-15 18:48:11,409 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-03-15 18:48:11,409 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.UserInfoControllergetUserInfoByNumberAndIdCard
+2018-03-15 18:48:11,409 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[P16301132, 202533]
+2018-03-15 18:48:11,520 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@63954f6f
+2018-03-15 18:48:11,521 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：113
+2018-03-15 18:48:11,521 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成

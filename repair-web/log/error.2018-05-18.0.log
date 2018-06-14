@@ -1,0 +1,7 @@
+2018-05-18 16:47:34,706 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数repairOrderNumber为null ***
+2018-05-18 23:05:47,829 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [java.util.List]: Specified class is an interface ***
+2018-05-18 23:06:12,568 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [java.util.List]: Specified class is an interface ***
+2018-05-18 23:06:45,797 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [java.util.List]: Specified class is an interface ***
+2018-05-18 23:08:43,303 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - java.io.IOException: 你的主机中的软件中止了一个已建立的连接。 ***
+2018-05-18 23:08:56,304 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Required request body is missing: public cn.edu.ahu.repairbackend.util.ResultMsg cn.edu.ahu.repairbackend.controller.InfoPlatformController.confirmRepairCurList(java.util.List<cn.edu.ahu.repairbackend.json.IdAndRepairOrderNumberJson>) ***
+2018-05-18 23:09:32,693 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [java.util.List]: Specified class is an interface ***

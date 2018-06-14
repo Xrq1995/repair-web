@@ -1,0 +1,8 @@
+2018-06-01 16:23:36,195 INFO (ControllerParamCheckAndLogAOP.java:83) - 请求开始-------------------------------------------------------
+2018-06-01 16:23:36,198 INFO (ControllerParamCheckAndLogAOP.java:84) - 请求地址：http://localhost:8080/campus/all
+2018-06-01 16:23:36,199 INFO (ControllerParamCheckAndLogAOP.java:85) - 请求类型：GET
+2018-06-01 16:23:36,200 INFO (ControllerParamCheckAndLogAOP.java:86) - 访问类及方法：cn.edu.ahu.repairbackend.controller.CampusInfoControllergetAllCampusInfo
+2018-06-01 16:23:36,200 INFO (ControllerParamCheckAndLogAOP.java:87) - 请求参数：[]
+2018-06-01 16:23:36,245 INFO (ControllerParamCheckAndLogAOP.java:62) - 返回值：cn.edu.ahu.repairbackend.util.ResultMsg@29a840e2
+2018-06-01 16:23:36,245 INFO (ControllerParamCheckAndLogAOP.java:63) - 耗时：50
+2018-06-01 16:23:36,245 INFO (ControllerParamCheckAndLogAOP.java:64) - 请求完成

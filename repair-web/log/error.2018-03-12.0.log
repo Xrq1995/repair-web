@@ -1,0 +1,4 @@
+2018-03-12 21:38:14,547 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数name为null ***
+2018-03-12 21:41:54,948 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数name为null ***
+2018-03-12 21:50:51,945 ERROR (CommonExceptionHandle.java:95) - *** 自定义异常 - 1002 ***
+2018-03-12 22:14:36,919 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数idCardLastSix为null ***

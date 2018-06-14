@@ -1,0 +1,1 @@
+2018-05-13 19:38:18,186 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - could not execute query; nested exception is org.hibernate.exception.GenericJDBCException: could not execute query ***

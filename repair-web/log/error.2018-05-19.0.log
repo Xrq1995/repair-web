@@ -1,0 +1,2 @@
+2018-05-19 23:09:53,788 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [cn.edu.ahu.repairbackend.json.RepairInfoJson]: No default constructor found; nested exception is java.lang.NoSuchMethodException: cn.edu.ahu.repairbackend.json.RepairInfoJson.<init>() ***
+2018-05-19 23:11:04,063 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - Failed to instantiate [cn.edu.ahu.repairbackend.json.RepairInfoJson]: No default constructor found; nested exception is java.lang.NoSuchMethodException: cn.edu.ahu.repairbackend.json.RepairInfoJson.<init>() ***

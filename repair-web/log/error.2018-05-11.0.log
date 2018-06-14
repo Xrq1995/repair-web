@@ -1,0 +1,1 @@
+2018-05-11 18:14:06,918 ERROR (CommonExceptionHandle.java:109) - *** 未知异常 - could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement ***

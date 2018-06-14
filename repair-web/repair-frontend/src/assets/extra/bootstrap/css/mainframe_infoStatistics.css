@@ -1,0 +1,243 @@
+body{
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", serif;
+}
+/*头部导航样式*/
+.mainframe-header .navbar{
+    margin-bottom: 0;
+    border: 0;
+}
+.mainframe-header .navbar-default{
+    background-color: #0099cc;
+}
+
+.mainframe-header .navbar-default .navbar-brand{
+    color: #ffffff;
+    background-color: #0087b4;
+}
+.mainframe-header .navbar-default .navbar-brand:hover,
+.mainframe-header .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: #0087b4;
+}
+
+.mainframe-header .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.mainframe-header .navbar-default .navbar-nav > li > a:hover,
+.mainframe-header .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #0087b4;
+}
+
+.mainframe-header .navbar-default .navbar-nav > .active > a,
+.mainframe-header .navbar-default .navbar-nav > .active > a:hover,
+.mainframe-header .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #0087b4;
+}
+
+/*主页面区域样式*/
+.mainframe-main{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+/*主区域左侧二级导航*/
+.mainframe-main-left{
+    top: 50px;
+    bottom: 0;
+    position: fixed;
+    width: 180px;
+    background-color: #293038;
+}
+/*二级导航滑动条样式*/
+.main-left-slide{
+    height: 30px;
+    width: 100%;
+    background-color: #394555;
+    color: #aeb9c2;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    line-height: 30px;
+}
+/*二级导航具体样式*/
+.main-left-nav > ul{
+    padding: 0;
+}
+.main-left-nav > ul > li > a {
+    width: 100%;
+    height: 40px;
+    display: block;
+    color: #ffffff;
+    overflow: hidden;
+    line-height: 40px;
+    cursor: pointer;
+}
+.main-left-nav > ul > li > a:hover,
+.main-left-nav > ul > li > a:focus{
+    background-color: #098cba;
+    text-decoration: none;
+}
+.main-left-nav > ul > li > a > span{
+    width: 48px;
+    text-align: center;
+    display:inline-block;
+}
+
+.main-left-nav > ul > .active > a {
+    background-color: #098cba;
+}
+
+/*主页面右侧显示区域*/
+.mainframe-main-right{
+    position: fixed;
+    top: 50px;
+    left: 180px;
+    right: 0;
+    bottom: 0;
+}
+/*右侧区域中树区域*/
+.main-right-tree{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #eaedf1;
+}
+
+
+/*树形区域通用样式*/
+.tree-title{
+    height: 65px;
+    line-height: 65px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #D9DEE4;
+    color: #333333;
+    text-align: center;
+}
+
+.tree-view{
+    position: absolute;
+    top: 67px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.tree-view ul{
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.tree-view li{
+    display: block;
+}
+
+.tree-view li span{
+    display: inline-block;
+    width: 48px;
+    text-align: center;
+    word-wrap:normal;
+}
+
+.tree-view li a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 50%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333333;
+    font-size: 13px;
+}
+
+.tree-view>ul>li>ul>li{
+    padding: 0 0 0 15px;
+}
+
+.tree-view>ul>li>ul>li>ul>li{
+    padding: 0 0 0 15px;
+}
+
+.tree-view>ul>li>ul>li>ul>li>ul>li{
+    padding: 0 0 0 15px;
+}
+
+
+
+/*右侧区域中数据区域*/
+.main-right-data{
+    position: absolute;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+
+/*数据区域-导航区域*/
+.data-nav{
+    border-bottom: 1px solid #DDD;
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.data-nav .breadcrumb{
+    display: inline-block;
+    padding: 0 0 0 8px;
+    margin:27px 0;
+    background-color: #ffffff;
+    line-height: 15px;
+    border-left: 2px solid #88B7E0;
+    border-radius: 0;
+}
+
+.data-nav .select-form{
+    display: inline-block;
+    float: right;
+    height: 70px;
+    padding: 20px 0;
+ }
+
+.data-nav .breadcrumb li:before{
+    padding: 0;
+}
+
+
+
+/*数据区域-主区域*/
+.data-view{
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.data-view .table-graph{
+    width: 100%;
+    overflow:hidden;
+}
+
+
+/*主区域-table表*/
+.data-view .table-table th{
+    text-align: center;
+}
+.data-view .table-table td{
+    text-align: center;
+}
+

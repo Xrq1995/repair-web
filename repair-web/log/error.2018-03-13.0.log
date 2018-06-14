@@ -1,0 +1,2 @@
+2018-03-13 13:16:12,484 ERROR (CommonExceptionHandle.java:43) - *** 请求参数验证异常 - 类型为java.lang.String的参数idCardLastSix为null ***
+2018-03-13 13:16:27,230 ERROR (CommonExceptionHandle.java:95) - *** 自定义异常 - 1002 ***
